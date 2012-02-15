@@ -1,33 +1,10 @@
-package balboa;
+package nova.balboa;
 
 import java.awt.Color;
 import java.util.HashMap;
 
-import balboa.nodes.AbsNode;
-import balboa.nodes.AddColorNode;
-import balboa.nodes.AddNode;
-import balboa.nodes.AndNode;
-import balboa.nodes.ColNode;
-import balboa.nodes.ColorNode;
-import balboa.nodes.DoubleNode;
-import balboa.nodes.GthanNode;
-import balboa.nodes.GthanOrEqNode;
-import balboa.nodes.IsNode;
-import balboa.nodes.LthanNode;
-import balboa.nodes.LthanOrEqNode;
-import balboa.nodes.MaxNode;
-import balboa.nodes.MinNode;
-import balboa.nodes.ModNode;
-import balboa.nodes.MulColorNode;
-import balboa.nodes.MulNode;
-import balboa.nodes.NoiseNode;
-import balboa.nodes.OrNode;
-import balboa.nodes.RandNode;
-import balboa.nodes.SinNode;
-import balboa.nodes.SubNode;
-import balboa.nodes.ValNode;
-import balboa.nodes.VarNode;
-import balboa.xml.*;
+import nova.balboa.nodes.*;
+import nova.balboa.xml.*;
 
 import org.w3c.dom.Node;
 
