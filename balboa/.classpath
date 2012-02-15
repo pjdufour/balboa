@@ -2,20 +2,18 @@
 <classpath>
 	<classpathentry excluding=".dependencies/" kind="src" path=""/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path=".dependencies/ant.jar"/>
-	<classpathentry kind="lib" path=".dependencies/derby.jar"/>
-	<classpathentry kind="lib" path=".dependencies/gluegen-rt-natives-windows-amd64.jar"/>
-	<classpathentry kind="lib" path=".dependencies/gluegen-rt.jar"/>
-	<classpathentry kind="lib" path=".dependencies/jinput-test.jar"/>
-	<classpathentry kind="lib" path=".dependencies/jinput.jar"/>
-	<classpathentry kind="lib" path=".dependencies/jogl-all-natives-windows-amd64.jar"/>
-	<classpathentry kind="lib" path=".dependencies/jogl.jar"/>
-	<classpathentry kind="lib" path=".dependencies/mysql-connector-java-5.1.13-bin.jar"/>
-	<classpathentry kind="lib" path=".dependencies/sqlitejdbc-v056.jar"/>
-	<classpathentry kind="lib" path=".dependencies/svnant.jar"/>
-	<classpathentry kind="lib" path=".dependencies/svnClientAdapter.jar"/>
-	<classpathentry kind="lib" path=".dependencies/svnjavahl.jar"/>
-	<classpathentry kind="lib" path=".dependencies/svnkit.jar"/>
-	<classpathentry kind="lib" path=".dependencies/vecmath.jar"/>
+	<classpathentry kind="lib" path="jar/ant.jar"/>
+	<classpathentry kind="lib" path="jar/derby.jar"/>
+	<classpathentry kind="lib" path="jar/gluegen-rt.jar"/>
+	<classpathentry kind="lib" path="jar/jinput-test.jar"/>
+	<classpathentry kind="lib" path="jar/jinput.jar"/>
+	<classpathentry kind="lib" path="jar/mysql-connector-java-5.1.13-bin.jar"/>
+	<classpathentry kind="lib" path="jar/sqlitejdbc-v056.jar"/>
+	<classpathentry kind="lib" path="jar/svnant.jar"/>
+	<classpathentry kind="lib" path="jar/svnClientAdapter.jar"/>
+	<classpathentry kind="lib" path="jar/svnjavahl.jar"/>
+	<classpathentry kind="lib" path="jar/svnkit.jar"/>
+	<classpathentry kind="lib" path="jar/vecmath.jar"/>
+	<classpathentry kind="lib" path="jar/jogl.all.jar"/>
 	<classpathentry kind="output" path=""/>
 </classpath>
