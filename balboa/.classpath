@@ -2,18 +2,24 @@
 <classpath>
 	<classpathentry excluding=".dependencies/" kind="src" path=""/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="jar/ant.jar"/>
-	<classpathentry kind="lib" path="jar/derby.jar"/>
-	<classpathentry kind="lib" path="jar/gluegen-rt.jar"/>
-	<classpathentry kind="lib" path="jar/jinput-test.jar"/>
-	<classpathentry kind="lib" path="jar/jinput.jar"/>
-	<classpathentry kind="lib" path="jar/mysql-connector-java-5.1.13-bin.jar"/>
-	<classpathentry kind="lib" path="jar/sqlitejdbc-v056.jar"/>
-	<classpathentry kind="lib" path="jar/svnant.jar"/>
-	<classpathentry kind="lib" path="jar/svnClientAdapter.jar"/>
-	<classpathentry kind="lib" path="jar/svnjavahl.jar"/>
-	<classpathentry kind="lib" path="jar/svnkit.jar"/>
 	<classpathentry kind="lib" path="jar/vecmath.jar"/>
-	<classpathentry kind="lib" path="jar/jogl.all.jar"/>
+	<classpathentry kind="lib" path="jar/jython.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://jython.org/javadoc"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jogamp-windows-amd64/jar/gluegen-rt.jar" sourcepath="jogamp-windows-amd64/gluegen-java-src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="http://jogamp.org/deployment/jogamp-next/javadoc/gluegen/javadoc/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="balboa/jogamp-windows-amd64/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jogamp-windows-amd64/jar/jogl.all.jar" sourcepath="jogamp-windows-amd64/jogl-java-src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="http://jogamp.org/deployment/jogamp-next/javadoc/jogl/javadoc/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="balboa/jogamp-windows-amd64/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="tecolote/tecolote.jar" sourcepath="tecolote/tecolote.jar"/>
 	<classpathentry kind="output" path=""/>
 </classpath>
