@@ -13,7 +13,7 @@ This library provides a procedural texture engine with flexible compiling that c
 
 ### Example
 
- - This example loads the textures specified in textures file at [textures.xml](https://github.com/pjdufour/balboa/blob/master/balboa/nova/balboa/examples/textures.xml).
+ - This example loads the textures specified in [textures file](https://github.com/pjdufour/balboa/blob/master/balboa/nova/balboa/examples/textures.xml) and saves them to the CACHE_TEXTURES path in the [settings file](https://github.com/pjdufour/balboa/blob/master/balboa/nova/balboa/examples/settings.xml)
  - [Main Class](https://github.com/pjdufour/balboa/blob/master/balboa/nova/balboa/examples/Example.java)
 
 ### To build:
