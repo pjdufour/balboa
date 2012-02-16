@@ -5,7 +5,7 @@ Procedural Texture Engine for JOGL
 
 Dependencies:
 
-- pjdufour/tecolote
+- pjdufour/tecolote#
 - JOGL
 - Jython
 
