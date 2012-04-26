@@ -1,4 +1,4 @@
-Procedural Texture Engine for JOGL
+Balboa - Procedural Texture Engine for JOGL
 ===
 
 ### Description
